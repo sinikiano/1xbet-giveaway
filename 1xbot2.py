@@ -17,12 +17,12 @@ logging.basicConfig(level=logging.INFO)
 class WithdrawalStates(StatesGroup):
     waiting_for_phone_number = State()
 # Replace with your actual bot token
-API_TOKEN = "7732475705:AAGOtmn03ZMLgj2hZ0B3bpWzA58_berL5SU"
+API_TOKEN = "5148632214:AAEVs2z5jeix8H3ARvtRGjEeTDM8zzGsj9Y"
 
 # Webhook settings
-WEBHOOK_HOST = "https://dylan-sbot-2.onrender.com"  # Replace with your Render app URL
-WEBHOOK_PATH = f"/webhook/{API_TOKEN}"
-WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
+WEBHOOK_HOST = "https://onexbet-giveaway-ojr9.onrender.com"  # Replace with your Render app URL
+WEBHOOK_PATH = f"/webhook/{faeXTOMD3zc}"
+WEBHOOK_URL = f"https://api.render.com/deploy/srv-ctns6etumphs73c9bub0?key=faeXTOMD3zc"
 
 # Web server settings
 WEBAPP_HOST = "0.0.0.0"
@@ -33,7 +33,7 @@ bot = Bot(token=API_TOKEN)
 router = Router()
 
 # Replace 'CHANNEL_ID' with your actual channel ID (must be an integer starting with -100)
-CHANNEL_ID = -1002484382800  # Replace with your channel's ID
+CHANNEL_ID = -100839078943  # Replace with your channel's ID
 
 
 # Create and initialize the SQLite database
